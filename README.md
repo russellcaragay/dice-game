@@ -1,2 +1,3 @@
 # dice-game
-Simple Responsive Dice Randomizer
+Simple Responsive Dice Game
+
