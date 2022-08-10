@@ -1,3 +1,2 @@
-# dice-game
-Simple Responsive Dice Game
+# Dice Game
 
