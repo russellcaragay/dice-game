@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/diceicon.png"/>
+    
+    <title>Dice Game</title>
+
+    <!-- CSS AND FONT LINKS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="styles.css">
+    
+</head>
+<body>
+    <div class = "container">
+
+        <!-- Header Section -->
+        <header class="head">
+            <h1 class="head-title">DICE GAME</h1>
+            <h2 class="head-winner">Welcome</h2>
+            <h3 class="head-instruction">Click the Button Below to Start</h3>
+            <button class="game-btn" onclick="start()">START</button>
+        </header>
+
+        <!-- Dice and Score Section -->
+        <main>
+            <div class="main-container">
+                <section>
+                    <h2 id ="player1" class="player-name">PLAYER 1</h2>
+                    <img src="images/dice6.png" alt="dice icon" class="dice-img player1-dice">
+                    <p id = "player1Score" class="player-score">Dice Score: 6</p>
+                </section>
+                <section>
+                    <h2 id="player2" class="player-name">PLAYER 2</h2>
+                    <img src="images/dice6.png" alt="dice icon" class="dice-img player2-dice">
+                    <p id = "player2Score" class="player-score">Dice Score: 6</p>
+                </section>
+            </div>
+        </main>
+
+        <!-- Credits and Themes Section -->
+        <footer>
+            <button class="theme-mode" onclick="theme()">🌑 Dark Mode? Click Me!</button>
+            <p class = "credits">by Russell Caragay</p>
+        </footer>
+    </div>
+
+    <!-- Javascript Link -->
+    <script src="index.js"></script>
+</body>
+</html>
